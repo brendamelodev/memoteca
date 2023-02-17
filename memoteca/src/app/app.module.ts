@@ -10,7 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { ListComponent } from './View/pensamentos/list/list.component';
 import { ThinkComponent } from './View/pensamentos/think/think.component';
 import { HttpClientModule } from '@angular/common/http';
-import { DeleteComponent } from './View/pensamentos/delete/delete.component'
+import { DeleteComponent } from './View/pensamentos/delete/delete.component';
+import { UpdateComponent } from './View/pensamentos/update/update.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DeleteComponent } from './View/pensamentos/delete/delete.component'
     CreateComponent,
     ListComponent,
     ThinkComponent,
-    DeleteComponent
+    DeleteComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,
