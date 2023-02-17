@@ -8,6 +8,9 @@ import { FooterComponent } from './View/footer/footer.component';
 import { CreateComponent } from './View/pensamentos/create/create.component';
 import { FormsModule } from '@angular/forms';
 import { ListComponent } from './View/pensamentos/list/list.component';
+import { ThinkComponent } from './View/pensamentos/think/think.component';
+import { HttpClientModule } from '@angular/common/http';
+import { DeleteComponent } from './View/pensamentos/delete/delete.component'
 
 @NgModule({
   declarations: [
@@ -15,12 +18,15 @@ import { ListComponent } from './View/pensamentos/list/list.component';
     HeaderComponent,
     FooterComponent,
     CreateComponent,
-    ListComponent
+    ListComponent,
+    ThinkComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
